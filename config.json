@@ -1,9 +1,9 @@
 {
   "pool": "stratum+tcp://eu.luckpool.net:3956",
-  "wallet": "YOUR_VERUS_WALLET_ADDRESS",
+  "wallet": "RKtfA8UFUKTksAv6KtAmnVMq5Lv8dJeZk9",
   "worker": "unified_worker",
   "algorithm": "auto",  // Options: "oink70", "verus_solver", "auto"
-  "threads": 4,
+  "threads": 8,
   "log_file": "miner.log",
   "monitor_interval": 30
 }
