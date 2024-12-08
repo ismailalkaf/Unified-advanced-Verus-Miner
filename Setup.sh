@@ -3,11 +3,8 @@
 # Unified Miner Setup Script
 echo "Setting up the unified advanced Verus miner..."
 
-# Update Termux packages
-pkg update -y && pkg upgrade -y
-
 # Install required dependencies
-pkg install -y git python clang cmake make openssl
+apt install -y git clang cmake make openssl
 
 # Clone and build oink70 miner
 if [ ! -d "oink70" ]; then
